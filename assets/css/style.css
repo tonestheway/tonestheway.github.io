@@ -10,3 +10,38 @@ body {
     background-image: url("../images/IMG_2050.jpg");
 
 }
+
+
+/* navigation custom styling */
+.customNavBg {
+    background-color: blue!important;
+}
+
+.customNavBg > a.nabar-brand:hover {
+    color: white 
+}
+.customNavBg > li {
+    margin-right: 20px;
+}
+
+/* FontAwersome hamburger icon styling */
+/* .customNavBg .navbar-toggle-icon > i.fa-bars {
+    color: white; 
+    font size: 35px;
+} */
+
+.customNavBg li.nav-item.active > a {
+    color: green;
+    font-weight: bold; 
+}
+
+.customNavBg  a {
+    color: white;
+}
+
+.customNavBg li > a:hover {
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+    transform:scale(1.2);
+}
